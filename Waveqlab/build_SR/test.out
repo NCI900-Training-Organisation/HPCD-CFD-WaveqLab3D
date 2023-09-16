@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2023-08-29 06:28:32:
+   Job Id:             93742002.gadi-pbs
+   Project:            gb32
+   Exit Status:        0
+   Service Units:      49928.09
+   NCPUs Requested:    2080                   NCPUs Used: 2080            
+                                           CPU Time Used: 24957:21:58     
+   Memory Requested:   10.0TB                Memory Used: 1.1TB           
+   Walltime requested: 12:00:00            Walltime Used: 12:00:07        
+   JobFS requested:    190.0GB                JobFS used: 0B              
+======================================================================================

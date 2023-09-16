@@ -1,0 +1,231 @@
+The system is: Linux - 4.18.0-425.3.1.el8.nci.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /apps/openmpi/4.1.5/bin/mpifort 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Export NVCOMPILER=/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5
+Export PGI=/apps/nvidia-hpc-sdk/22.5
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort1 CMakeFortranCompilerId.F -opt 1 -nostatic -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp skylake-avx512 -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -stdinc /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/include:/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include:/usr/local/include:/usr/include -cmdline '+nvfortran CMakeFortranCompilerId.F -v -I/apps/openmpi/4.1.5/include -pthread -L/apps/openmpi/4.1.5/lib -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi' -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def '__SIZE_TYPE__=unsigned long int' -def '__PTRDIFF_TYPE__=long int' -def __amd64 -def __amd64__ -def __k8 -def __k8__ -def __MMX__ -def __SSE__ -def __SSE2__ -def __SSE3__ -def __SSSE3__ -def __ABM__ -def __SSE4_1__ -def __SSE4_2__ -def __AVX__ -def __AVX2__ -def __AVX512F__ -def __AVX512CD__ -def __AVX512VL__ -def __AVX512BW__ -def __AVX512DQ__ -def __AVX512VNNI__ -def __F16C__ -def __FMA__ -def __XSAVE__ -def __XSAVEOPT__ -def __XSAVEC__ -def __XSAVES__ -def __POPCNT__ -def __AES__ -def __PCLMUL__ -def __CLFLUSHOPT__ -def __FSGSBASE__ -def __RDRND__ -def __BMI__ -def __BMI2__ -def __LZCNT__ -def __FXSR__ -def __PKU__ -idir /apps/openmpi/4.1.5/include -idir /apps/openmpi/4.1.5/include/nvidia -idir /apps/openmpi/4.1.5/include -idir /opt/Modules/v4.3.0/init/ksh-functions -def __PGLLVM__ -def __NVCOMPILER_LLVM__ -def __extension__= -def _REENTRANT -preprocess -nofreeform -vect 48 -x 54 1 -x 68 0x1 -x 70 0x40000000 -x 70 0x40000000 -x 68 0x1 -x 124 1 -x 195 0x8000 -y 163 0xc0000000 -x 189 0x10 -stbfile /scratch/z00/fxf900/tmp/nvfortranVLXWln_yejNw0.stb -modexport /scratch/z00/fxf900/tmp/nvfortranNLXWl1Va7CtEQ.cmod -modindex /scratch/z00/fxf900/tmp/nvfortranFLXWlDUMcAxiR.cmdx -cci /scratch/z00/fxf900/tmp/nvfortran3LXWlLXIOnj0w.cci -output /scratch/z00/fxf900/tmp/nvfortran-LXWl9Hotp43C.ilm
+  0 inform,   0 warnings,   0 severes, 0 fatal for cmakefortrancompilerid
+NVFORTRAN/x86-64 Linux 22.5-0: compilation successful
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort2 /scratch/z00/fxf900/tmp/nvfortran-LXWl9Hotp43C.ilm -fn CMakeFortranCompilerId.F -opt 1 -x 51 0x20 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp skylake-avx512 -x 120 0x1000 -x 124 0x1400 -y 15 2 -x 57 0x3b0000 -x 58 0x48000000 -x 49 0x100 -astype 0 -x 121 1 -x 183 4 -x 121 0x800 -x 68 0x1 -x 8 0x40000000 -x 70 0x40000000 -x 56 0x10 -x 54 0x10 -x 249 140 -x 68 0x20 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 83 0x1 -x 85 0x1 -x 206 0x02 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 124 1 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -cci /scratch/z00/fxf900/tmp/nvfortran3LXWlLXIOnj0w.cci -cmdline '+nvfortran CMakeFortranCompilerId.F -v -I/apps/openmpi/4.1.5/include -pthread -L/apps/openmpi/4.1.5/lib -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi' -stbfile /scratch/z00/fxf900/tmp/nvfortranVLXWln_yejNw0.stb -asm /scratch/z00/fxf900/tmp/nvfortranpLXWlTYaI61Dv.ll
+  0 inform,   0 warnings,   0 severes, 0 fatal for cmakefortrancompilerid
+NVFORTRAN/x86-64 Linux 22.5-0: compilation successful
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/share/llvm/bin/llc /scratch/z00/fxf900/tmp/nvfortranpLXWlTYaI61Dv.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+avx512f -mattr=+avx512cd -mattr=+avx512vl -mattr=+avx512bw -mattr=+avx512dq -mattr=+avx512vnni -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -O1 -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false --align-all-functions=6 -filetype=obj --frame-pointer=none -o /scratch/z00/fxf900/tmp/nvfortranhLXWlviN1BOkI.o
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/append -noerror /scratch/z00/fxf900/tmp/nvfortranhLXWlviN1BOkI.o -name .IPDINFO /scratch/z00/fxf900/tmp/nvfortranNLXWl1Va7CtEQ.cmod -name .IPEINFO /scratch/z00/fxf900/tmp/nvfortranFLXWlDUMcAxiR.cmdx
+
+/opt/nci/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/nvhpc.ld -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/usr/lib64 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8 /scratch/z00/fxf900/tmp/nvfortranhLXWlviN1BOkI.o -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -rpath /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -rpath /usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -lnvf -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lrt -lpthread -lgcc -lc -lgcc_s -lm /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib64/crtn.o
+Unlinking /scratch/z00/fxf900/tmp/nvfortran-LXWl9Hotp43C.ilm
+Unlinking /scratch/z00/fxf900/tmp/nvfortran3LXWlLXIOnj0w.cci
+Unlinking /scratch/z00/fxf900/tmp/nvfortranVLXWln_yejNw0.stb
+Unlinking /scratch/z00/fxf900/tmp/nvfortranNLXWl1Va7CtEQ.cmod
+Unlinking /scratch/z00/fxf900/tmp/nvfortranFLXWlDUMcAxiR.cmdx
+Unlinking /scratch/z00/fxf900/tmp/nvfortranxLXWlfI8c9lkU.s
+Unlinking /scratch/z00/fxf900/tmp/nvfortranpLXWlTYaI61Dv.ll
+Unlinking /scratch/z00/fxf900/tmp/nvfortranhLXWlviN1BOkI.o
+Unlinking /scratch/z00/fxf900/tmp/nvfortran-LXWl9kacUxFX.llvm
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is NVHPC, found in "/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/3.20.2/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_20904/fast && /bin/gmake  -f CMakeFiles/cmTC_20904.dir/build.make CMakeFiles/cmTC_20904.dir/build
+gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o
+/apps/openmpi/4.1.5/bin/mpifort   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o
+Export NVCOMPILER=/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5
+Export PGI=/apps/nvidia-hpc-sdk/22.5
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort1 /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -opt 1 -nostatic -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp skylake-avx512 -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -stdinc /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/include:/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include:/usr/local/include:/usr/include -cmdline '+nvfortran /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -v -c -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -I/apps/openmpi/4.1.5/include -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -pthread' -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def '__SIZE_TYPE__=unsigned long int' -def '__PTRDIFF_TYPE__=long int' -def __amd64 -def __amd64__ -def __k8 -def __k8__ -def __MMX__ -def __SSE__ -def __SSE2__ -def __SSE3__ -def __SSSE3__ -def __ABM__ -def __SSE4_1__ -def __SSE4_2__ -def __AVX__ -def __AVX2__ -def __AVX512F__ -def __AVX512CD__ -def __AVX512VL__ -def __AVX512BW__ -def __AVX512DQ__ -def __AVX512VNNI__ -def __F16C__ -def __FMA__ -def __XSAVE__ -def __XSAVEOPT__ -def __XSAVEC__ -def __XSAVES__ -def __POPCNT__ -def __AES__ -def __PCLMUL__ -def __CLFLUSHOPT__ -def __FSGSBASE__ -def __RDRND__ -def __BMI__ -def __BMI2__ -def __LZCNT__ -def __FXSR__ -def __PKU__ -idir /apps/openmpi/4.1.5/include -idir /apps/openmpi/4.1.5/include/nvidia -idir /apps/openmpi/4.1.5/include -idir /opt/Modules/v4.3.0/init/ksh-functions -def __PGLLVM__ -def __NVCOMPILER_LLVM__ -def __extension__= -def _REENTRANT -preprocess -nofreeform -vect 48 -x 54 1 -x 68 0x1 -x 70 0x40000000 -x 70 0x40000000 -x 68 0x1 -x 124 1 -x 195 0x8000 -y 163 0xc0000000 -x 189 0x10 -stbfile /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb -modexport /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod -modindex /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx -cci /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci -output /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm
+  0 inform,   0 warnings,   0 severes, 0 fatal for cmakefortrancompilerabi
+NVFORTRAN/x86-64 Linux 22.5-0: compilation successful
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort2 /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm -fn /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -opt 1 -x 51 0x20 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp skylake-avx512 -x 120 0x1000 -x 124 0x1400 -y 15 2 -x 57 0x3b0000 -x 58 0x48000000 -x 49 0x100 -astype 0 -x 121 1 -x 183 4 -x 121 0x800 -x 68 0x1 -x 8 0x40000000 -x 70 0x40000000 -x 56 0x10 -x 54 0x10 -x 249 140 -x 68 0x20 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 83 0x1 -x 85 0x1 -x 206 0x02 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 124 1 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -cci /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci -cmdline '+nvfortran /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -v -c -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -I/apps/openmpi/4.1.5/include -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -pthread' -stbfile /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb -asm /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll
+  0 inform,   0 warnings,   0 severes, 0 fatal for cmakefortrancompilerabi
+NVFORTRAN/x86-64 Linux 22.5-0: compilation successful
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/share/llvm/bin/llc /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+avx512f -mattr=+avx512cd -mattr=+avx512vl -mattr=+avx512bw -mattr=+avx512dq -mattr=+avx512vnni -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -O1 -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o
+
+/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/append -noerror CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -name .IPDINFO /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod -name .IPEINFO /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx
+Unlinking /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm
+Unlinking /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci
+Unlinking /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb
+Unlinking /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod
+Unlinking /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx
+Unlinking /scratch/z00/fxf900/tmp/nvfortran_ZZWl6Hy5Gr_l.s
+Unlinking /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll
+Unlinking /scratch/z00/fxf900/tmp/nvfortranEZZWlA6cgur-5.llvm
+Linking Fortran executable cmTC_20904
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20904.dir/link.txt --verbose=1
+/apps/openmpi/4.1.5/bin/mpifort  -v CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -o cmTC_20904 
+Export NVCOMPILER=/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5
+Export PGI=/apps/nvidia-hpc-sdk/22.5
+
+/opt/nci/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/nvhpc.ld -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/usr/lib64 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8 CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -rpath /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -rpath /usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -o cmTC_20904 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -lnvf -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lrt -lpthread -lgcc -lc -lgcc_s -lm /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib64/crtn.o
+gmake[1]: Leaving directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_20904/fast && /bin/gmake  -f CMakeFiles/cmTC_20904.dir/build.make CMakeFiles/cmTC_20904.dir/build]
+  ignore line: [gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/apps/openmpi/4.1.5/bin/mpifort   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Export NVCOMPILER=/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5]
+  ignore line: [Export PGI=/apps/nvidia-hpc-sdk/22.5]
+  ignore line: []
+  ignore line: [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort1 /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -opt 1 -nostatic -x 19 0x400000 -quad -x 59 4 -x 15 2 -x 49 0x400004 -x 51 0x20 -x 57 0x4c -x 58 0x10000 -x 124 0x1000 -tp skylake-avx512 -x 57 0xfb0000 -x 58 0x78031040 -x 47 0x08 -x 48 4608 -x 49 0x100 -stdinc /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/include:/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include:/usr/local/include:/usr/include -cmdline '+nvfortran /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -v -c -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -I/apps/openmpi/4.1.5/include -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -pthread' -def unix -def __unix -def __unix__ -def linux -def __linux -def __linux__ -def __NO_MATH_INLINES -def __LP64__ -def __x86_64 -def __x86_64__ -def __LONG_MAX__=9223372036854775807L -def '__SIZE_TYPE__=unsigned long int' -def '__PTRDIFF_TYPE__=long int' -def __amd64 -def __amd64__ -def __k8 -def __k8__ -def __MMX__ -def __SSE__ -def __SSE2__ -def __SSE3__ -def __SSSE3__ -def __ABM__ -def __SSE4_1__ -def __SSE4_2__ -def __AVX__ -def __AVX2__ -def __AVX512F__ -def __AVX512CD__ -def __AVX512VL__ -def __AVX512BW__ -def __AVX512DQ__ -def __AVX512VNNI__ -def __F16C__ -def __FMA__ -def __XSAVE__ -def __XSAVEOPT__ -def __XSAVEC__ -def __XSAVES__ -def __POPCNT__ -def __AES__ -def __PCLMUL__ -def __CLFLUSHOPT__ -def __FSGSBASE__ -def __RDRND__ -def __BMI__ -def __BMI2__ -def __LZCNT__ -def __FXSR__ -def __PKU__ -idir /apps/openmpi/4.1.5/include -idir /apps/openmpi/4.1.5/include/nvidia -idir /apps/openmpi/4.1.5/include -idir /opt/Modules/v4.3.0/init/ksh-functions -def __PGLLVM__ -def __NVCOMPILER_LLVM__ -def __extension__= -def _REENTRANT -preprocess -nofreeform -vect 48 -x 54 1 -x 68 0x1 -x 70 0x40000000 -x 70 0x40000000 -x 68 0x1 -x 124 1 -x 195 0x8000 -y 163 0xc0000000 -x 189 0x10 -stbfile /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb -modexport /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod -modindex /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx -cci /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci -output /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm]
+  ignore line: [  0 inform    0 warnings    0 severes  0 fatal for cmakefortrancompilerabi]
+  ignore line: [NVFORTRAN/x86-64 Linux 22.5-0: compilation successful]
+  ignore line: []
+  ignore line: [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/fort2 /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm -fn /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -opt 1 -x 51 0x20 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp skylake-avx512 -x 120 0x1000 -x 124 0x1400 -y 15 2 -x 57 0x3b0000 -x 58 0x48000000 -x 49 0x100 -astype 0 -x 121 1 -x 183 4 -x 121 0x800 -x 68 0x1 -x 8 0x40000000 -x 70 0x40000000 -x 56 0x10 -x 54 0x10 -x 249 140 -x 68 0x20 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 83 0x1 -x 85 0x1 -x 206 0x02 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 124 1 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -cci /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci -cmdline '+nvfortran /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -v -c -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -I/apps/openmpi/4.1.5/include -I/apps/openmpi/4.1.5/include/nvidia -I/apps/openmpi/4.1.5/include -I/opt/Modules/v4.3.0/init/ksh-functions -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -pthread' -stbfile /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb -asm /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll]
+  ignore line: [  0 inform    0 warnings    0 severes  0 fatal for cmakefortrancompilerabi]
+  ignore line: [NVFORTRAN/x86-64 Linux 22.5-0: compilation successful]
+  ignore line: []
+  ignore line: [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/share/llvm/bin/llc /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+avx512f -mattr=+avx512cd -mattr=+avx512vl -mattr=+avx512bw -mattr=+avx512dq -mattr=+avx512vnni -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -O1 -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: []
+  ignore line: [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/bin/tools/append -noerror CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -name .IPDINFO /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod -name .IPEINFO /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranoZZWlQlMsbjfZ.ilm]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortran_ZZWl6OxgurXG.cci]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranUZZWlkWuq77jY.stb]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranEZZWlAX6Hn_h9.cmod]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranoZZWlQ8q4_FfY.cmdx]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortran_ZZWl6Hy5Gr_l.s]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranUZZWlkXC7ONHf.ll]
+  ignore line: [Unlinking /scratch/z00/fxf900/tmp/nvfortranEZZWlA6cgur-5.llvm]
+  ignore line: [Linking Fortran executable cmTC_20904]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20904.dir/link.txt --verbose=1]
+  ignore line: [/apps/openmpi/4.1.5/bin/mpifort  -v CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -o cmTC_20904 ]
+  ignore line: [Export NVCOMPILER=/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5]
+  ignore line: [Export PGI=/apps/nvidia-hpc-sdk/22.5]
+  ignore line: []
+  link line: [/opt/nci/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/nvhpc.ld -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/openmpi/4.1.5/lib/nvidia -L/apps/openmpi/4.1.5/lib -L/apps/openmpi/4.1.5/lib/profilers -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64 -L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -L/usr/lib64 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8 CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -rpath /apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib -rpath /usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -o cmTC_20904 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -lnvf -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lrt -lpthread -lgcc -lc -lgcc_s -lm /usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib64/crtn.o]
+    arg [/opt/nci/bin/ld] ==> ignore
+    arg [/usr/lib64/crt1.o] ==> obj [/usr/lib64/crt1.o]
+    arg [/usr/lib64/crti.o] ==> obj [/usr/lib64/crti.o]
+    arg [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o] ==> obj [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o]
+    arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o] ==> obj [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o]
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-T] ==> ignore
+    arg [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/nvhpc.ld] ==> ignore
+    arg [-L/apps/openmpi/4.1.5/lib] ==> dir [/apps/openmpi/4.1.5/lib]
+    arg [-L/apps/openmpi/4.1.5/lib/nvidia] ==> dir [/apps/openmpi/4.1.5/lib/nvidia]
+    arg [-L/apps/openmpi/4.1.5/lib] ==> dir [/apps/openmpi/4.1.5/lib]
+    arg [-L/apps/openmpi/4.1.5/lib/profilers] ==> dir [/apps/openmpi/4.1.5/lib/profilers]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64]
+    arg [-L/apps/openmpi/4.1.5/lib/nvidia] ==> dir [/apps/openmpi/4.1.5/lib/nvidia]
+    arg [-L/apps/openmpi/4.1.5/lib] ==> dir [/apps/openmpi/4.1.5/lib]
+    arg [-L/apps/openmpi/4.1.5/lib/profilers] ==> dir [/apps/openmpi/4.1.5/lib/profilers]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64]
+    arg [-L/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/bin/../lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/bin/../lib/gcc/x86_64-redhat-linux/8]
+    arg [CMakeFiles/cmTC_20904.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+    arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+    arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-rpath] ==> ignore
+    arg [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_20904] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-lnvf] ==> lib [nvf]
+    arg [-lnvomp] ==> lib [nvomp]
+    arg [-ldl] ==> lib [dl]
+    arg [--as-needed] ==> ignore
+    arg [-lnvhpcatm] ==> lib [nvhpcatm]
+    arg [-latomic] ==> lib [atomic]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lnvcpumath] ==> lib [nvcpumath]
+    arg [-lnsnvc] ==> lib [nsnvc]
+    arg [-lnvc] ==> lib [nvc]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lm] ==> lib [m]
+    arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/usr/lib64/crtn.o] ==> obj [/usr/lib64/crtn.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+  collapse library dir [/apps/openmpi/4.1.5/lib] ==> [/apps/openmpi/4.1.5/lib]
+  collapse library dir [/apps/openmpi/4.1.5/lib/nvidia] ==> [/apps/openmpi/4.1.5/lib/nvidia]
+  collapse library dir [/apps/openmpi/4.1.5/lib] ==> [/apps/openmpi/4.1.5/lib]
+  collapse library dir [/apps/openmpi/4.1.5/lib/profilers] ==> [/apps/openmpi/4.1.5/lib/profilers]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64]
+  collapse library dir [/apps/openmpi/4.1.5/lib/nvidia] ==> [/apps/openmpi/4.1.5/lib/nvidia]
+  collapse library dir [/apps/openmpi/4.1.5/lib] ==> [/apps/openmpi/4.1.5/lib]
+  collapse library dir [/apps/openmpi/4.1.5/lib/profilers] ==> [/apps/openmpi/4.1.5/lib/profilers]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64]
+  collapse library dir [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib] ==> [/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+  implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;nvf;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;rt;pthread;gcc;c;gcc_s;m]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/trace_init.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib/f90main.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/apps/openmpi/4.1.5/lib;/apps/openmpi/4.1.5/lib/nvidia;/apps/openmpi/4.1.5/lib/profilers;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nvshmem/lib;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/comm_libs/nccl/lib;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/math_libs/lib64;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/extras/qd/lib;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/compilers/lib;/apps/nvidia-hpc-sdk/22.5/Linux_x86_64/22.5/cuda/lib64;/usr/lib64;/usr/lib/gcc/x86_64-redhat-linux/8]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_eb77e/fast && /bin/gmake  -f CMakeFiles/cmTC_eb77e.dir/build.make CMakeFiles/cmTC_eb77e.dir/build
+gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_eb77e.dir/testFortranCompilerF90.f90.o
+/apps/openmpi/4.1.5/bin/mpifort    -c /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_eb77e.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_eb77e
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb77e.dir/link.txt --verbose=1
+/apps/openmpi/4.1.5/bin/mpifort CMakeFiles/cmTC_eb77e.dir/testFortranCompilerF90.f90.o -o cmTC_eb77e 
+gmake[1]: Leaving directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/CMakeTmp'
+
+
+

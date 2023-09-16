@@ -1,0 +1,275 @@
+The system is: Linux - 4.18.0-425.3.1.el8.nci.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /apps/intel-ct/wrapper/ifort 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+ifort version 19.0.5.281
+/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fpp    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX CMakeFortranCompilerId.F /scratch/z00/fxf900/tmp/ifortSVDFl8.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fortcom    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -mGLOB_pack_sort_init_list -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -omp_simd -O2 "-reentrancy threaded" -simd -offload_host -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=/scratch/z00/fxf900/tmp/ifortxosneT.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -v" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/z00/fxf900/tmp/ifortjQQl2jas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d91 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x8 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort2123342109zUiT3T -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/libiml_attr.so -mIPOPT_single_file_compile_and_link=TRUE -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=/scratch/z00/fxf900/tmp/ifortxosneT.o -mIPOPT_whole_archive_fixup_file_name=/scratch/z00/fxf900/tmp/ifortwarch50Nink -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/z00/fxf900/tmp/iforttempfileFO2MPX -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/z00/fxf900/tmp/ifortxosneT.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_FORTRAN -mP1OPT_source_file_name=CMakeFortranCompilerId.F -mP1OPT_full_source_file_name=/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/3.20.2/CompilerIdFortran/CMakeFortranCompilerId.F -mP2OPT_symtab_type_copy=true /scratch/z00/fxf900/tmp/ifortSVDFl8.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o a.out /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-ct/2019.5.281/compiler/lib -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib -L/apps/intel-mpi/2019.5.281/intel64/lib -L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2019.5.281/compiler/lib/ -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/ -L/apps/intel-mpi/2019.5.281/intel64/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib /scratch/z00/fxf900/tmp/ifortxosneT.o -Bdynamic -Bstatic -lifport -lifcoremt -limf -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is Intel, found in "/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/3.20.2/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_5c71e/fast && /bin/gmake  -f CMakeFiles/cmTC_5c71e.dir/build.make CMakeFiles/cmTC_5c71e.dir/build
+gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o
+/apps/intel-ct/wrapper/ifort   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o
+ifort version 19.0.5.281
+/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fpp    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F /scratch/z00/fxf900/tmp/ifortVunX8A.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fortcom    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -mGLOB_pack_sort_init_list -I/half-root/usr/share/cmake/Modules -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -omp_simd -O2 "-reentrancy threaded" -simd -offload_host -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -c -o CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/z00/fxf900/tmp/ifortwm5jLlas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d91 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x8 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort0100847364RQaRBU -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mIPOPT_whole_archive_fixup_file_name=/scratch/z00/fxf900/tmp/ifortwarchXPWMFV -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/z00/fxf900/tmp/iforttempfilemOkjcG -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_FORTRAN -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mP2OPT_symtab_type_copy=true /scratch/z00/fxf900/tmp/ifortVunX8A.i
+#include "..." search starts here:
+#include <...> search starts here:
+ /half-root/usr/share/cmake/Modules
+ .
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2019.5.281/intel64/include
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc
+ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+Linking Fortran executable cmTC_5c71e
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c71e.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/ifort  -v CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -o cmTC_5c71e 
+ifort version 19.0.5.281
+/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fortcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -o cmTC_5c71e" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/z00/fxf900/tmp/ifortfsKuRuas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort0500987647V7TZeu -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/z00/fxf900/tmp/ifortslisSVDujv -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/z00/fxf900/tmp/ifortscriptobM1nV "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_5c71e" "/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o" "-L/apps/intel-ct/2019.5.281/compiler/lib" "-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib" "-L/apps/intel-mpi/2019.5.281/intel64/lib" "-L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2019.5.281/compiler/lib/" "-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/" "-L/apps/intel-mpi/2019.5.281/intel64/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o" "-Bdynamic" "-Bstatic" "-lifport" "-lifcoremt" "-limf" "-lsvml" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/z00/fxf900/tmp/ipo_iforttsPuPh.o -mIPOPT_whole_archive_fixup_file_name=/scratch/z00/fxf900/tmp/ifortwarchWeooDa -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/z00/fxf900/tmp/iforttempfileHBxk3R -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/z00/fxf900/tmp/ipo_iforttsPuPh.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.f -mP2OPT_symtab_type_copy=true CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/z00/fxf900/tmp/ifortaliseUbyv3 -mIPOPT_generated_tempfiles=/scratch/z00/fxf900/tmp/ifortelisL0yIyE -mIPOPT_embedded_object_base_name=/scratch/z00/fxf900/tmp/iforteobjBf3Y5W -mIPOPT_cmdline_link_new_name=/scratch/z00/fxf900/tmp/ifortllis7FpT5L
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_5c71e /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-ct/2019.5.281/compiler/lib -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib -L/apps/intel-mpi/2019.5.281/intel64/lib -L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2019.5.281/compiler/lib/ -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/ -L/apps/intel-mpi/2019.5.281/intel64/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -Bdynamic -Bstatic -lifport -lifcoremt -limf -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [.]
+    add: [/apps/intel-mpi/2019.5.281/intel64/include]
+    add: [/opt/Modules/v4.3.0/init/ksh-functions]
+    add: [/apps/intel-mpi/2019.5.281/intel64/include]
+    add: [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64]
+    add: [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc]
+    add: [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include]
+    add: [/usr/local/include]
+    add: [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+    add: [/half-root/usr/bin/../include/]
+    add: [/usr/include]
+  end of search list found
+  skipping relative include dir [.]
+  collapse include dir [/apps/intel-mpi/2019.5.281/intel64/include] ==> [/apps/intel-mpi/2019.5.281/intel64/include]
+  collapse include dir [/opt/Modules/v4.3.0/init/ksh-functions] ==> [/opt/Modules/v4.3.0/init/ksh-functions]
+  collapse include dir [/apps/intel-mpi/2019.5.281/intel64/include] ==> [/apps/intel-mpi/2019.5.281/intel64/include]
+  collapse include dir [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64] ==> [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64]
+  collapse include dir [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc] ==> [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc]
+  collapse include dir [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include] ==> [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include]
+  collapse include dir [/half-root/usr/bin/../include/] ==> [/half-root/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/intel-mpi/2019.5.281/intel64/include;/opt/Modules/v4.3.0/init/ksh-functions;/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64;/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc;/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include;/usr/local/include;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include;/half-root/usr/include;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_5c71e/fast && /bin/gmake  -f CMakeFiles/cmTC_5c71e.dir/build.make CMakeFiles/cmTC_5c71e.dir/build]
+  ignore line: [gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/apps/intel-ct/wrapper/ifort   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [ifort version 19.0.5.281]
+  ignore line: [/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fpp    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F /scratch/z00/fxf900/tmp/ifortVunX8A.i]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ .]
+  ignore line: [ /apps/intel-mpi/2019.5.281/intel64/include]
+  ignore line: [ /opt/Modules/v4.3.0/init/ksh-functions]
+  ignore line: [ /apps/intel-mpi/2019.5.281/intel64/include]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fortcom    -D__INTEL_COMPILER=1900 -D__INTEL_COMPILER_UPDATE=5 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20190815 -D__INTEL_OFFLOAD -D__i686 -D__i686__ -D__pentiumpro -D__pentiumpro__ -D__tune_i686__ -D__tune_pentiumpro__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE__ -D__SSE_MATH__ -D__MMX__ -mGLOB_pack_sort_init_list -I/half-root/usr/share/cmake/Modules -I. -I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2019.5.281/intel64/include -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64 -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc -I/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include -I/usr/local/include -I/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include -I/half-root/usr/bin/../include/ -I/usr/include -omp_simd -O2 "-reentrancy threaded" -simd -offload_host -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -c -o CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/z00/fxf900/tmp/ifortwm5jLlas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d91 -mCG_bnl_movbe=T -mGLOB_extended_instructions=0x8 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort0100847364RQaRBU -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mIPOPT_whole_archive_fixup_file_name=/scratch/z00/fxf900/tmp/ifortwarchXPWMFV -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/z00/fxf900/tmp/iforttempfilemOkjcG -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_FORTRAN -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mP2OPT_symtab_type_copy=true /scratch/z00/fxf900/tmp/ifortVunX8A.i]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /half-root/usr/share/cmake/Modules]
+  ignore line: [ .]
+  ignore line: [ /apps/intel-mpi/2019.5.281/intel64/include]
+  ignore line: [ /opt/Modules/v4.3.0/init/ksh-functions]
+  ignore line: [ /apps/intel-mpi/2019.5.281/intel64/include]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/intel64]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include/icc]
+  ignore line: [ /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking Fortran executable cmTC_5c71e]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c71e.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/ifort  -v CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -o cmTC_5c71e ]
+  ignore line: [ifort version 19.0.5.281]
+  ignore line: [/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/fortcom    -mGLOB_em64t=TRUE -mP1OPT_version=19.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-I/apps/intel-mpi/2019.5.281/intel64/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -o cmTC_5c71e" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/z00/fxf900/tmp/ifortfsKuRuas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d91 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort0500987647V7TZeu -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel/compilers_and_libraries_2019.5.281/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/z00/fxf900/tmp/ifortslisSVDujv -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/z00/fxf900/tmp/ifortscriptobM1nV "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_5c71e" "/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o" "-L/apps/intel-ct/2019.5.281/compiler/lib" "-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib" "-L/apps/intel-mpi/2019.5.281/intel64/lib" "-L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2019.5.281/compiler/lib/" "-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/" "-L/apps/intel-mpi/2019.5.281/intel64/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o" "-Bdynamic" "-Bstatic" "-lifport" "-lifcoremt" "-limf" "-lsvml" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/z00/fxf900/tmp/ipo_iforttsPuPh.o -mIPOPT_whole_archive_fixup_file_name=/scratch/z00/fxf900/tmp/ifortwarchWeooDa -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/z00/fxf900/tmp/iforttempfileHBxk3R -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/z00/fxf900/tmp/ipo_iforttsPuPh.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.f -mP2OPT_symtab_type_copy=true CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/z00/fxf900/tmp/ifortaliseUbyv3 -mIPOPT_generated_tempfiles=/scratch/z00/fxf900/tmp/ifortelisL0yIyE -mIPOPT_embedded_object_base_name=/scratch/z00/fxf900/tmp/iforteobjBf3Y5W -mIPOPT_cmdline_link_new_name=/scratch/z00/fxf900/tmp/ifortllis7FpT5L]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_5c71e /apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-ct/2019.5.281/compiler/lib -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib -L/apps/intel-mpi/2019.5.281/intel64/lib -L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2019.5.281/compiler/lib/ -L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/ -L/apps/intel-mpi/2019.5.281/intel64/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o -Bdynamic -Bstatic -lifport -lifcoremt -limf -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5c71e] ==> ignore
+    arg [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o] ==> obj [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o]
+    arg [-L/apps/intel-ct/2019.5.281/compiler/lib] ==> dir [/apps/intel-ct/2019.5.281/compiler/lib]
+    arg [-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib] ==> dir [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib]
+    arg [-L/apps/intel-mpi/2019.5.281/intel64/lib] ==> dir [/apps/intel-mpi/2019.5.281/intel64/lib]
+    arg [-L/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-ct/2019.5.281/compiler/lib/] ==> dir [/apps/intel-ct/2019.5.281/compiler/lib/]
+    arg [-L/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/] ==> dir [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/]
+    arg [-L/apps/intel-mpi/2019.5.281/intel64/lib/] ==> dir [/apps/intel-mpi/2019.5.281/intel64/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_5c71e.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lifport] ==> lib [ifport]
+    arg [-lifcoremt] ==> lib [ifcoremt]
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-Bstatic] ==> ignore
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/half-root/usr/lib64/crt1.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/half-root/usr/lib64/crti.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/half-root/usr/lib64/crtn.o]
+  collapse library dir [/apps/intel-ct/2019.5.281/compiler/lib] ==> [/apps/intel-ct/2019.5.281/compiler/lib]
+  collapse library dir [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib] ==> [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib]
+  collapse library dir [/apps/intel-mpi/2019.5.281/intel64/lib] ==> [/apps/intel-mpi/2019.5.281/intel64/lib]
+  collapse library dir [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> [/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-ct/2019.5.281/compiler/lib/] ==> [/apps/intel-ct/2019.5.281/compiler/lib]
+  collapse library dir [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib/] ==> [/apps/intel-mpi/2019.5.281/intel64/libfabric/lib]
+  collapse library dir [/apps/intel-mpi/2019.5.281/intel64/lib/] ==> [/apps/intel-mpi/2019.5.281/intel64/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [ifport;ifcoremt;imf;svml;m;ipgo;irc;pthread;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: [/half-root/usr/lib64/crt1.o;/half-root/usr/lib64/crti.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/for_main.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/half-root/usr/lib64/crtn.o]
+  implicit dirs: [/apps/intel-ct/2019.5.281/compiler/lib;/apps/intel-mpi/2019.5.281/intel64/libfabric/lib;/apps/intel-mpi/2019.5.281/intel64/lib;/apps/intel/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_99c58/fast && /bin/gmake  -f CMakeFiles/cmTC_99c58.dir/build.make CMakeFiles/cmTC_99c58.dir/build
+gmake[1]: Entering directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_99c58.dir/testFortranCompilerF90.f90.o
+/apps/intel-ct/wrapper/ifort    -c /scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_99c58.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_99c58
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99c58.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/ifort CMakeFiles/cmTC_99c58.dir/testFortranCompilerF90.f90.o -o cmTC_99c58 
+gmake[1]: Leaving directory '/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_CPU/CMakeFiles/CMakeTmp'
+
+
+

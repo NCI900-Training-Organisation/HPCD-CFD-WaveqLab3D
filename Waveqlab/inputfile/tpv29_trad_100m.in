@@ -1,0 +1,98 @@
+waveqlab3d input file: TPV29  with 100m grid spacing
+ 
+&problem_list
+ name = '/scratch/fp92/TPV29/tpv29_cfl_25_trad6',
+ problem = 'TPV29',
+ response = 'elastic', 
+ nblocks = 2,
+ t_final = 20d0, 
+ CFL = 0.25d0,
+ coupling = 'slip-weakening_friction', 
+ fd_type = 'traditional',
+ order = 6,
+ type_of_mesh = 'curvilinear',
+ material_source='hard-coded',
+ interpol = F,
+ use_topography = F,
+ w_stride = 4, 
+ w_fault = T /
+
+&block_list
+btp(1)%nqrs = 251, 251, 501,
+btp(1)%aqrs = -25d0, 0d0, -25d0,
+btp(1)%bqrs = 0d0, 25d0, 25d0,
+btp(1)%rho_s_p = 2.67d0, 3.464d0, 6d0,
+btp(1)%lqrs = 1, 2, 1,
+btp(1)%rqrs = 0, 1, 1,
+btp(1)%pml_lqrs = T, F, T,
+btp(1)%pml_rqrs = F, T, T,
+btp(1)%npml = 24,
+btp(1)%lc = 1d0,
+btp(1)%rc = 0d0,
+btp(1)%profile_type= 'read_from_memomry_fractal',
+btp(1)%faultsize = 251, 501,
+btp(1)%profile_path='../inputfile/tpv29_100m_extended.dat', 
+
+btp(2)%nqrs = 251, 251, 501,
+btp(2)%aqrs = 0d0, 0d0, -25d0,
+btp(2)%bqrs = 25d0, 25d0, 25d0,
+btp(2)%rho_s_p = 2.67d0, 3.464d0, 6d0,
+btp(2)%lqrs = 0, 2, 1,
+btp(2)%rqrs = 1, 1, 1,
+btp(2)%pml_lqrs = F, F, T,
+btp(2)%pml_rqrs = T, T, T,
+btp(2)%npml = 24,
+btp(2)%lc = 0d0,
+btp(2)%rc = 1d0,
+btp(2)%profile_type='read_from_memomry_fractal',
+btp(2)%faultsize = 251, 501,
+btp(2)%profile_path='../inputfile/tpv29_100m_extended.dat'/
+
+&moment_tensor_list
+ use_moment_tensor = F, 
+ x = 3d0, 
+ y = 0d0, 
+ z = 0d0,
+ M0 = 370.3703703703703d0, 
+ T = 0.1d0, 
+ sigma = 0.2d0 /
+
+
+&mms_list
+ use_mms = F /
+
+&output_list
+ output_seismograms = T,
+ output_fields_block1 = F, 
+ output_fields_block2 = F, 
+ stride_fields = 1 /
+
+!---begin:station_listU---
+-20d0 0d0 -20d0
+-20d0 0d0 0d0
+-20d0 0d0 20d0
+-3d0 0d0 -15d0
+-3d0 0d0 0d0
+-3d0 0d0 15d0
+-19.99786097537d0 0d0 -20d0
+-20.11968191d0 0d0 0d0
+-19.86881038d0 0d0 20d0
+-3d0 0d0 -15d0
+-3.11968191d0 0d0 0d0
+-2.99069723767d0 0d0 15d0
+!---end:station_listU---
+
+!---begin:station_listV---
+3d0 0d0 -15d0
+3d0 0d0 0d0
+3d0 0d0 15d0
+20d0 0d0 -20d0
+20d0 0d0 0d0
+20d0 0d0 20d0
+3d0 0d0 -15d0
+2.88031809d0 0d0 0d0
+3.00930276233d0 0d0 15d0
+20.00213902463d0 0d0 -20d0
+19.88031809d0 0d0 0d0
+20.13118962d0 0d0 20d0
+!---end:station_listV---
