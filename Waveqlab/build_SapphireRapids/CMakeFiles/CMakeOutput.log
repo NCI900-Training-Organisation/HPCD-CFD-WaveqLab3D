@@ -1,0 +1,293 @@
+The system is: Linux - 4.18.0-477.15.1.el8.nci.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /apps/intel-ct/wrapper/ifx 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+ifx version 2023.2.0
+/apps/intel-oneapi/compiler/2023.2.0/linux/bin/fpp    -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX CMakeFortranCompilerId.F /scratch/z00/fxf900/tmp/ifx0095974687q3dGPM/ifxPxth0v.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include
+ /usr/local/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include
+ /usr/include
+End of search list.
+/apps/intel-oneapi/compiler/2023.2.0/linux/bin-llvm/xfortcom    -triple x86_64-unknown-linux-gnu -emit-obj "-verify nomodule" -main-file-name CMakeFortranCompilerId.F -mllvm --relocation-model=static "-options-string -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -v " -mframe-pointer=none -omp_simd -target-cpu x86-64 -target-linker-version 2.30 -fveclib=SVML -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -disable-hir-generate-mkl-call -mllvm -paropt=11 -fintel-libirc-allowed -o /scratch/z00/fxf900/tmp/ifx0095974687q3dGPM/ifxY42G7k.o -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -omp_simd -O2 "-reentrancy threaded" "-unroll 2" -simd -offload_host /scratch/z00/fxf900/tmp/ifx0095974687q3dGPM/ifxPxth0v.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include
+ /usr/local/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include
+ /usr/include
+End of search list.
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o a.out /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-mpi/2021.10.0/libfabric/lib -L/apps/intel-mpi/2021.10.0/lib/release -L/apps/intel-mpi/2021.10.0/lib -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64 -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib -L/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-mpi/2021.10.0/libfabric/lib/ -L/apps/intel-mpi/2021.10.0/lib/release/ -L/apps/intel-mpi/2021.10.0/lib/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib /scratch/z00/fxf900/tmp/ifx0095974687q3dGPM/ifxY42G7k.o -Bdynamic -Bstatic -lifport -lifcoremt -Bdynamic -limf -Bstatic -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is IntelLLVM, found in "/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/3.20.2/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_654c5/fast && /bin/gmake  -f CMakeFiles/cmTC_654c5.dir/build.make CMakeFiles/cmTC_654c5.dir/build
+gmake[1]: Entering directory '/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o
+/apps/intel-ct/wrapper/ifx   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o
+ifx version 2023.2.0
+/apps/intel-oneapi/compiler/2023.2.0/linux/bin/fpp    -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F /scratch/z00/fxf900/tmp/ifx0665873998ppvpYz/ifxpW9ONB.i
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include
+ /usr/local/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include
+ /usr/include
+End of search list.
+/apps/intel-oneapi/compiler/2023.2.0/linux/bin-llvm/xfortcom    -triple x86_64-unknown-linux-gnu -emit-obj "-verify nomodule" -main-file-name /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mllvm --relocation-model=static "-options-string -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -c -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o " -mframe-pointer=none -omp_simd -target-cpu x86-64 -target-linker-version 2.30 -fveclib=SVML -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -disable-hir-generate-mkl-call -mllvm -paropt=11 -fintel-libirc-allowed -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -I/half-root/usr/share/cmake/Modules -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -omp_simd -O2 "-reentrancy threaded" "-unroll 2" -simd -offload_host /scratch/z00/fxf900/tmp/ifx0665873998ppvpYz/ifxpW9ONB.i
+#include "..." search starts here:
+#include <...> search starts here:
+ /half-root/usr/share/cmake/Modules
+ .
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /opt/Modules/v4.3.0/init/ksh-functions
+ /apps/intel-mpi/2021.10.0/include
+ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64
+ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include
+ /usr/local/include
+ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include
+ /usr/include
+End of search list.
+Linking Fortran executable cmTC_654c5
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654c5.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/ifx  -v CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -o cmTC_654c5 
+ifx version 2023.2.0
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_654c5 /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-mpi/2021.10.0/libfabric/lib -L/apps/intel-mpi/2021.10.0/lib/release -L/apps/intel-mpi/2021.10.0/lib -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64 -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib -L/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-mpi/2021.10.0/libfabric/lib/ -L/apps/intel-mpi/2021.10.0/lib/release/ -L/apps/intel-mpi/2021.10.0/lib/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -Bdynamic -Bstatic -lifport -lifcoremt -Bdynamic -limf -Bstatic -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [.]
+    add: [/apps/intel-mpi/2021.10.0/include]
+    add: [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+    add: [/opt/Modules/v4.3.0/init/ksh-functions]
+    add: [/apps/intel-mpi/2021.10.0/include]
+    add: [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+    add: [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64]
+    add: [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include]
+    add: [/usr/local/include]
+    add: [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include]
+    add: [/usr/include]
+  end of search list found
+  skipping relative include dir [.]
+  collapse include dir [/apps/intel-mpi/2021.10.0/include] ==> [/apps/intel-mpi/2021.10.0/include]
+  collapse include dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  collapse include dir [/opt/Modules/v4.3.0/init/ksh-functions] ==> [/opt/Modules/v4.3.0/init/ksh-functions]
+  collapse include dir [/apps/intel-mpi/2021.10.0/include] ==> [/apps/intel-mpi/2021.10.0/include]
+  collapse include dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  collapse include dir [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64]
+  collapse include dir [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/intel-mpi/2021.10.0/include;/apps/intel-ct/2023.2.0/compiler-llvm/linux/include;/opt/Modules/v4.3.0/init/ksh-functions;/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64;/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include;/usr/local/include;/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_654c5/fast && /bin/gmake  -f CMakeFiles/cmTC_654c5.dir/build.make CMakeFiles/cmTC_654c5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/apps/intel-ct/wrapper/ifx   -v -c /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [ifx version 2023.2.0]
+  ignore line: [/apps/intel-oneapi/compiler/2023.2.0/linux/bin/fpp    -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -fixed -4Ycpp -4Ncvf -f_com=yes -MX /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F /scratch/z00/fxf900/tmp/ifx0665873998ppvpYz/ifxpW9ONB.i]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ .]
+  ignore line: [ /apps/intel-mpi/2021.10.0/include]
+  ignore line: [ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  ignore line: [ /opt/Modules/v4.3.0/init/ksh-functions]
+  ignore line: [ /apps/intel-mpi/2021.10.0/include]
+  ignore line: [ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [/apps/intel-oneapi/compiler/2023.2.0/linux/bin-llvm/xfortcom    -triple x86_64-unknown-linux-gnu -emit-obj "-verify nomodule" -main-file-name /half-root/usr/share/cmake/Modules/CMakeFortranCompilerABI.F -mllvm --relocation-model=static "-options-string -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -v -c -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o " -mframe-pointer=none -omp_simd -target-cpu x86-64 -target-linker-version 2.30 -fveclib=SVML -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -disable-hir-generate-mkl-call -mllvm -paropt=11 -fintel-libirc-allowed -o CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -D__INTEL_LLVM_COMPILER=20230200 -D__INTEL_LLVM_COMPILER_UPDATE=0 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -Dunix -Dlinux -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ -D__INTEL_COMPILER_BUILD_DATE=20230622 -D__INTEL_COMPILER=20230200 -D__INTEL_COMPILER_UPDATE=0 -I/half-root/usr/share/cmake/Modules -I. -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/opt/Modules/v4.3.0/init/ksh-functions -I/apps/intel-mpi/2021.10.0/include -I/apps/intel-ct/2023.2.0/compiler-llvm/linux/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64 -I/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include -I/usr/local/include -I/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include -I/usr/include -omp_simd -O2 "-reentrancy threaded" "-unroll 2" -simd -offload_host /scratch/z00/fxf900/tmp/ifx0665873998ppvpYz/ifxpW9ONB.i]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /half-root/usr/share/cmake/Modules]
+  ignore line: [ .]
+  ignore line: [ /apps/intel-mpi/2021.10.0/include]
+  ignore line: [ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  ignore line: [ /opt/Modules/v4.3.0/init/ksh-functions]
+  ignore line: [ /apps/intel-mpi/2021.10.0/include]
+  ignore line: [ /apps/intel-ct/2023.2.0/compiler-llvm/linux/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking Fortran executable cmTC_654c5]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654c5.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/ifx  -v CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -o cmTC_654c5 ]
+  ignore line: [ifx version 2023.2.0]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_654c5 /apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o -L/apps/intel-mpi/2021.10.0/libfabric/lib -L/apps/intel-mpi/2021.10.0/lib/release -L/apps/intel-mpi/2021.10.0/lib -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64 -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib -L/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu -L/apps/intel-oneapi/compiler/2023.2.0/linux/lib -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-mpi/2021.10.0/libfabric/lib/ -L/apps/intel-mpi/2021.10.0/lib/release/ -L/apps/intel-mpi/2021.10.0/lib/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/ -L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o -Bdynamic -Bstatic -lifport -lifcoremt -Bdynamic -limf -Bstatic -lsvml -Bdynamic -lm -Bstatic -lipgo -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_654c5] ==> ignore
+    arg [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o] ==> obj [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o]
+    arg [-L/apps/intel-mpi/2021.10.0/libfabric/lib] ==> dir [/apps/intel-mpi/2021.10.0/libfabric/lib]
+    arg [-L/apps/intel-mpi/2021.10.0/lib/release] ==> dir [/apps/intel-mpi/2021.10.0/lib/release]
+    arg [-L/apps/intel-mpi/2021.10.0/lib] ==> dir [/apps/intel-mpi/2021.10.0/lib]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib]
+    arg [-L/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux] ==> dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux]
+    arg [-L/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu] ==> dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu]
+    arg [-L/apps/intel-oneapi/compiler/2023.2.0/linux/lib] ==> dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-mpi/2021.10.0/libfabric/lib/] ==> dir [/apps/intel-mpi/2021.10.0/libfabric/lib/]
+    arg [-L/apps/intel-mpi/2021.10.0/lib/release/] ==> dir [/apps/intel-mpi/2021.10.0/lib/release/]
+    arg [-L/apps/intel-mpi/2021.10.0/lib/] ==> dir [/apps/intel-mpi/2021.10.0/lib/]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/]
+    arg [-L/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/] ==> dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_654c5.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lifport] ==> lib [ifport]
+    arg [-lifcoremt] ==> lib [ifcoremt]
+    arg [-Bdynamic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-Bstatic] ==> ignore
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-Bstatic] ==> ignore
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/half-root/usr/lib64/crt1.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/half-root/usr/lib64/crti.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/half-root/usr/lib64/crtn.o]
+  collapse library dir [/apps/intel-mpi/2021.10.0/libfabric/lib] ==> [/apps/intel-mpi/2021.10.0/libfabric/lib]
+  collapse library dir [/apps/intel-mpi/2021.10.0/lib/release] ==> [/apps/intel-mpi/2021.10.0/lib/release]
+  collapse library dir [/apps/intel-mpi/2021.10.0/lib] ==> [/apps/intel-mpi/2021.10.0/lib]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib]
+  collapse library dir [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux]
+  collapse library dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu]
+  collapse library dir [/apps/intel-oneapi/compiler/2023.2.0/linux/lib] ==> [/apps/intel-oneapi/compiler/2023.2.0/linux/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-mpi/2021.10.0/libfabric/lib/] ==> [/apps/intel-mpi/2021.10.0/libfabric/lib]
+  collapse library dir [/apps/intel-mpi/2021.10.0/lib/release/] ==> [/apps/intel-mpi/2021.10.0/lib/release]
+  collapse library dir [/apps/intel-mpi/2021.10.0/lib/] ==> [/apps/intel-mpi/2021.10.0/lib]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin/] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64/] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/] ==> [/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [ifport;ifcoremt;imf;svml;m;ipgo;irc;pthread;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: [/half-root/usr/lib64/crt1.o;/half-root/usr/lib64/crti.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin/for_main.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/half-root/usr/lib64/crtn.o]
+  implicit dirs: [/apps/intel-mpi/2021.10.0/libfabric/lib;/apps/intel-mpi/2021.10.0/lib/release;/apps/intel-mpi/2021.10.0/lib;/apps/intel-ct/2023.2.0/compiler-llvm/linux/compiler/lib/intel64_lin;/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib/x64;/apps/intel-ct/2023.2.0/compiler-llvm/linux/lib;/apps/intel-oneapi/compiler/2023.2.0/linux/compiler/lib/intel64_lin;/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/linux;/apps/intel-oneapi/compiler/2023.2.0/linux/lib/clang/17/lib/x86_64-unknown-linux-gnu;/apps/intel-oneapi/compiler/2023.2.0/linux/lib;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_94139/fast && /bin/gmake  -f CMakeFiles/cmTC_94139.dir/build.make CMakeFiles/cmTC_94139.dir/build
+gmake[1]: Entering directory '/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_94139.dir/testFortranCompilerF90.f90.o
+/apps/intel-ct/wrapper/ifx    -c /g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_94139.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_94139
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94139.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/ifx CMakeFiles/cmTC_94139.dir/testFortranCompilerF90.f90.o -o cmTC_94139 
+gmake[1]: Leaving directory '/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/CMakeTmp'
+
+
+

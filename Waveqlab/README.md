@@ -6,7 +6,7 @@ Compiling the CPU code on Gadi, do
 1. $Module load openmpi/4.0.7 gcc/11.1.0
 2. $cd Waveqlab/build
 3. For building for testing purposes $cmake -DCMAKE_BUILD_TYPE=Debug ../src/ 
-   For production runs (enabling optimization via compiler flags), $cmake -DCMAKE_BUILD_TYPE=Release ../src/
+   For production runs (enabling optimization via compiler flags), $cmake -DCMAKE_Fortran_COMPILER=/apps/openmpi/4.0.1/bin/mpifort -DCMAKE_BUILD_TYPE=Release ../src/
 
 Following the steps to compile on Gadi with openmpi, step 3 might throw in MPI Fortran Not Found error. This error is seemingly due to openmpi module and lib are not linked. The direct path of openmpi lib should be specfied by following step below
 

@@ -655,8 +655,8 @@ contains
     do z = mz, pz
       do y = my, py
          do x = mx, px
-            x_grid(:) = G%X(x, y, z, 1:3)
-            call  initial_stress_tensor(S0,x_grid,'TPV10')
+            !x_grid(:) = G%X(x, y, z, 1:3)
+            !call  initial_stress_tensor(S0,x_grid,'TPV10')
           !if (((iz+1 > z) .or. (z > nz - fz)) .or. &
           !((iy+1 > y) .or. (y > ny - fy)) .or. &
           !((ix+1 > x) .or. (x > nx - fx))) cycle
@@ -689,7 +689,7 @@ contains
              + DOT_PRODUCT(S0+F(x,y,z, 4:9), MATMUL(Smatrix, S0+F(x,y,z, 4:9))))* J * hx *hy *hz
  
 
-            energy0= energy0 + DOT_PRODUCT(S0, MATMUL(Smatrix, S0))* J * hx *hy *hz
+            !energy0= energy0 + DOT_PRODUCT(S0, MATMUL(Smatrix, S0))* J * hx *hy *hz
  
 
              !energy = energy + F(x, y, z,1 )* F(x,y,z,1)+F(x, y,z,2) *F(x,y,z,2) + F(x,y,z ,3) * F(x,y,z,3) &
@@ -700,12 +700,10 @@ contains
           end do
        end do
 
-  print *, "energy", energy
 
 
   call MPI_Allreduce(energy, energy_total, 1, MPI_DOUBLE, MPI_SUM, C%comm, ierr)
 
-  print *, "energy total", energy_total
 
 
   end subroutine write_energy

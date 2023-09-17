@@ -1,5 +1,5 @@
 &problem_list
- name = 'data/tpv5_energy_upwdrp5',
+ name = 'data/tpv5_energy_upwdrp5_100m',
  response = 'elastic',
  problem = 'TPV5',
  nblocks = 2,

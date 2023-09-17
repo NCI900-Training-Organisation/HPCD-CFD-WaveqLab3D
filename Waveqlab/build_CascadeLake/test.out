@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2023-09-17 22:07:06:
+   Job Id:             95369247.gadi-pbs
+   Project:            il82
+   Exit Status:        0
+   Service Units:      20.96
+   NCPUs Requested:    96                     NCPUs Used: 96              
+                                           CPU Time Used: 10:20:07        
+   Memory Requested:   384.0GB               Memory Used: 24.83GB         
+   Walltime requested: 00:10:00            Walltime Used: 00:06:33        
+   JobFS requested:    190.0GB                JobFS used: 8.16MB          
+======================================================================================

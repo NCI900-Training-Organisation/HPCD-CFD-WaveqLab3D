@@ -1,6 +1,0 @@
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/edit_cache.dir
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/test.dir
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/docs.dir
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/rebuild_cache.dir
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/waveqlab3d.dir
-/scratch/vp91/fxf900/waveqlab3d/Waveqlab/build_acc_Release/CMakeFiles/pre_wql3d.dir

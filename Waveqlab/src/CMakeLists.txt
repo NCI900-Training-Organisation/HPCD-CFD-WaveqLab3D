@@ -19,7 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # The fortran compiler flags depends on the compiler being used
 get_filename_component (Fortran_COMPILER_NAME ${CMAKE_Fortran_COMPILER} NAME)
 
-if (Fortran_COMPILER_NAME MATCHES "gfortran.*")
+if (Fortran_COMPILER_NAME MATCHES "mpifort.*")
     # gfortran
     set (CMAKE_Fortran_FLAGS_RELEASE "-fdefault-real-8 -fdefault-double-8 -O5 -Wuninitialized")
     set (CMAKE_Fortran_FLAGS_DEBUG   "-fdefault-real-8 -fdefault-double-8 -Og -g -Wall -Wextra -Wconversion -Wuninitialized -fbounds-check -fbacktrace -finit-real=nan -ffpe-trap=invalid,zero,overflow -fimplicit-none -fall-intrinsics -std=f2008ts")
@@ -31,7 +31,7 @@ else (Fortran_COMPILER_NAME MATCHES "ftn.*")
     # Cray fortran compiler
     set (CMAKE_Fortran_FLAGS_RELEASE "-O2 -Oipa0 -v -V")
     set (CMAKE_Fortran_FLAGS_DEBUG   "-O0 -g")
-endif (Fortran_COMPILER_NAME MATCHES "gfortran.*")
+endif (Fortran_COMPILER_NAME MATCHES "mpofprt.*")
 
 # This needs to be set for the source code to become visible in the debugger.
 # It will need to be expanded when we start using Linux and other OSes.

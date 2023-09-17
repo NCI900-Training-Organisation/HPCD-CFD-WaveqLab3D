@@ -1,5 +1,0 @@
-Warning: Support for the Nvidia HPC SDK is still in a beta stage, and many
-packages in /apps do not support bindings for the Nvidia fortran compiler.
-Support for more packages is being added over time, but is not yet complete
-To disable this warning, set the NCI_NVIDIA_HPC_SDK_NO_WARN environment
-variable.

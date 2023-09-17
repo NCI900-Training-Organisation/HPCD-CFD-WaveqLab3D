@@ -1,0 +1,351 @@
+ warning: current method for setting time step does not use material properties
+ and mesh information from files (only scalars from btp%... in input file are us
+ ed)
+ data/tpv5_energy_upwdrp4_100m                                                  
+                                                                                
+                                                                                
+                    
+ Domain time parameters :
+         Number of time steps =          415
+         Initial dt =   7.216931289227167E-003
+         Final time =    3.00000000000000     
+  0.000000000000000E+000           1         141          26         201
+  -1.00000000000000        2.50000000000000       0.000000000000000E+000
+  -1.00000000000000        2.50000000000000       0.000000000000000E+000
+  0.000000000000000E+000           1          31          26         201
+   3.00000000000000        2.50000000000000       0.000000000000000E+000
+   3.00000000000000        2.50000000000000       0.000000000000000E+000
+ n =            1  of          415  time steps, t =   7.216931289227167E-003 
+  time in time step =    1.07413300000000     
+ n =            2  of          415  time steps, t =   1.443386257845433E-002 
+  time in time step =    1.10139700000000     
+ n =            3  of          415  time steps, t =   2.165079386768150E-002 
+  time in time step =    1.07788900000000     
+ n =            4  of          415  time steps, t =   2.886772515690867E-002 
+  time in time step =    1.10415100000000     
+ n =            5  of          415  time steps, t =   3.608465644613584E-002 
+  time in time step =    1.08224500000000     
+ n =            6  of          415  time steps, t =   4.330158773536300E-002 
+  time in time step =    1.08822800000000     
+ n =            7  of          415  time steps, t =   5.051851902459017E-002 
+  time in time step =    1.08073100000000     
+ n =            8  of          415  time steps, t =   5.773545031381733E-002 
+  time in time step =    1.10983800000000     
+ n =            9  of          415  time steps, t =   6.495238160304451E-002 
+  time in time step =    1.09733000000000     
+ n =           10  of          415  time steps, t =   7.216931289227167E-002 
+  time in time step =    1.14166900000000     
+ n =           11  of          415  time steps, t =   7.938624418149884E-002 
+  time in time step =    1.08746200000000     
+ n =           12  of          415  time steps, t =   8.660317547072600E-002 
+  time in time step =    1.04910600000000     
+ n =           13  of          415  time steps, t =   9.382010675995317E-002 
+  time in time step =    1.05668100000000     
+ n =           14  of          415  time steps, t =   0.101037038049180      
+  time in time step =    1.07131700000000     
+ n =           15  of          415  time steps, t =   0.108253969338408      
+  time in time step =    1.09065600000000     
+ n =           16  of          415  time steps, t =   0.115470900627635      
+  time in time step =    1.05374100000000     
+ n =           17  of          415  time steps, t =   0.122687831916862      
+  time in time step =    1.11180200000000     
+ n =           18  of          415  time steps, t =   0.129904763206089      
+  time in time step =    1.08081200000000     
+ n =           19  of          415  time steps, t =   0.137121694495316      
+  time in time step =    1.10478200000000     
+ n =           20  of          415  time steps, t =   0.144338625784543      
+  time in time step =    1.09667300000000     
+ n =           21  of          415  time steps, t =   0.151555557073771      
+  time in time step =    1.09148500000000     
+ n =           22  of          415  time steps, t =   0.158772488362998      
+  time in time step =    1.04451000000000     
+ n =           23  of          415  time steps, t =   0.165989419652225      
+  time in time step =    1.09554000000000     
+ n =           24  of          415  time steps, t =   0.173206350941452      
+  time in time step =    1.08493200000000     
+ n =           25  of          415  time steps, t =   0.180423282230679      
+  time in time step =    1.09098400000000     
+ n =           26  of          415  time steps, t =   0.187640213519906      
+  time in time step =    1.06301700000000     
+ n =           27  of          415  time steps, t =   0.194857144809134      
+  time in time step =    1.10952300000000     
+ n =           28  of          415  time steps, t =   0.202074076098361      
+  time in time step =    1.06171500000000     
+ n =           29  of          415  time steps, t =   0.209291007387588      
+  time in time step =    1.07287700000000     
+ n =           30  of          415  time steps, t =   0.216507938676815      
+  time in time step =    1.08285100000000     
+ n =           31  of          415  time steps, t =   0.223724869966042      
+  time in time step =    1.10490000000000     
+ n =           32  of          415  time steps, t =   0.230941801255270      
+  time in time step =    1.04959000000000     
+ n =           33  of          415  time steps, t =   0.238158732544497      
+  time in time step =    1.05706700000000     
+ n =           34  of          415  time steps, t =   0.245375663833724      
+  time in time step =    1.07612200000001     
+ n =           35  of          415  time steps, t =   0.252592595122951      
+  time in time step =    1.10273200000000     
+ n =           36  of          415  time steps, t =   0.259809526412178      
+  time in time step =    1.09970800000000     
+ n =           37  of          415  time steps, t =   0.267026457701405      
+  time in time step =    1.11093000000000     
+ n =           38  of          415  time steps, t =   0.274243388990633      
+  time in time step =    1.05082000000000     
+ n =           39  of          415  time steps, t =   0.281460320279860      
+  time in time step =    1.09334600000000     
+ n =           40  of          415  time steps, t =   0.288677251569087      
+  time in time step =    1.05198499999999     
+ n =           41  of          415  time steps, t =   0.295894182858314      
+  time in time step =    1.06231200000000     
+ n =           42  of          415  time steps, t =   0.303111114147541      
+  time in time step =    1.06518800000000     
+ n =           43  of          415  time steps, t =   0.310328045436769      
+  time in time step =    1.09508800000000     
+ n =           44  of          415  time steps, t =   0.317544976725996      
+  time in time step =    1.07003000000000     
+ n =           45  of          415  time steps, t =   0.324761908015223      
+  time in time step =    1.11995600000000     
+ n =           46  of          415  time steps, t =   0.331978839304450      
+  time in time step =    1.06266800000000     
+ n =           47  of          415  time steps, t =   0.339195770593677      
+  time in time step =    1.11789400000000     
+ n =           48  of          415  time steps, t =   0.346412701882904      
+  time in time step =    1.05083500000000     
+ n =           49  of          415  time steps, t =   0.353629633172132      
+  time in time step =    1.05814500000000     
+ n =           50  of          415  time steps, t =   0.360846564461359      
+  time in time step =    1.07842900000000     
+ n =           51  of          415  time steps, t =   0.368063495750586      
+  time in time step =    1.05772800000000     
+ n =           52  of          415  time steps, t =   0.375280427039813      
+  time in time step =    1.04943600000000     
+ n =           53  of          415  time steps, t =   0.382497358329040      
+  time in time step =    1.07542600000000     
+ n =           54  of          415  time steps, t =   0.389714289618267      
+  time in time step =    1.06104800000000     
+ n =           55  of          415  time steps, t =   0.396931220907495      
+  time in time step =    1.08149800000000     
+ n =           56  of          415  time steps, t =   0.404148152196722      
+  time in time step =    1.05405400000000     
+ n =           57  of          415  time steps, t =   0.411365083485949      
+  time in time step =    1.11032200000000     
+ n =           58  of          415  time steps, t =   0.418582014775176      
+  time in time step =    1.07316000000000     
+ n =           59  of          415  time steps, t =   0.425798946064403      
+  time in time step =    1.08475299999999     
+ n =           60  of          415  time steps, t =   0.433015877353631      
+  time in time step =    1.10710700000000     
+ n =           61  of          415  time steps, t =   0.440232808642858      
+  time in time step =    1.08910800000001     
+ n =           62  of          415  time steps, t =   0.447449739932085      
+  time in time step =    1.06273100000000     
+ n =           63  of          415  time steps, t =   0.454666671221312      
+  time in time step =    1.07562000000000     
+ n =           64  of          415  time steps, t =   0.461883602510539      
+  time in time step =    1.06319200000000     
+ n =           65  of          415  time steps, t =   0.469100533799766      
+  time in time step =    1.07457500000000     
+ n =           66  of          415  time steps, t =   0.476317465088994      
+  time in time step =    1.08815600000000     
+ n =           67  of          415  time steps, t =   0.483534396378221      
+  time in time step =    1.05205200000000     
+ n =           68  of          415  time steps, t =   0.490751327667448      
+  time in time step =    1.06067800000000     
+ n =           69  of          415  time steps, t =   0.497968258956675      
+  time in time step =    1.11348100000001     
+ n =           70  of          415  time steps, t =   0.505185190245902      
+  time in time step =    1.05157900000000     
+ n =           71  of          415  time steps, t =   0.512402121535130      
+  time in time step =    1.05926200000000     
+ n =           72  of          415  time steps, t =   0.519619052824357      
+  time in time step =    1.05680900000000     
+ n =           73  of          415  time steps, t =   0.526835984113584      
+  time in time step =    1.09354100000000     
+ n =           74  of          415  time steps, t =   0.534052915402811      
+  time in time step =    1.04861099999999     
+ n =           75  of          415  time steps, t =   0.541269846692038      
+  time in time step =    1.07302799999999     
+ n =           76  of          415  time steps, t =   0.548486777981265      
+  time in time step =    1.08943799999999     
+ n =           77  of          415  time steps, t =   0.555703709270493      
+  time in time step =    1.07409100000001     
+ n =           78  of          415  time steps, t =   0.562920640559720      
+  time in time step =    1.06785699999999     
+ n =           79  of          415  time steps, t =   0.570137571848947      
+  time in time step =    1.09094999999999     
+ n =           80  of          415  time steps, t =   0.577354503138174      
+  time in time step =    1.08544600000000     
+ n =           81  of          415  time steps, t =   0.584571434427401      
+  time in time step =    1.10731900000000     
+ n =           82  of          415  time steps, t =   0.591788365716629      
+  time in time step =    1.06686099999999     
+ n =           83  of          415  time steps, t =   0.599005297005856      
+  time in time step =    1.10237300000000     
+ n =           84  of          415  time steps, t =   0.606222228295083      
+  time in time step =    1.05084500000000     
+ n =           85  of          415  time steps, t =   0.613439159584310      
+  time in time step =    1.07725499999999     
+ n =           86  of          415  time steps, t =   0.620656090873537      
+  time in time step =    1.06077800000000     
+ n =           87  of          415  time steps, t =   0.627873022162764      
+  time in time step =    1.09360100000001     
+ n =           88  of          415  time steps, t =   0.635089953451992      
+  time in time step =    1.04767899999999     
+ n =           89  of          415  time steps, t =   0.642306884741219      
+  time in time step =    1.07506500000001     
+ n =           90  of          415  time steps, t =   0.649523816030446      
+  time in time step =    1.06342000000001     
+ n =           91  of          415  time steps, t =   0.656740747319673      
+  time in time step =    1.13555699999999     
+ n =           92  of          415  time steps, t =   0.663957678608900      
+  time in time step =    1.02579799999999     
+ n =           93  of          415  time steps, t =   0.671174609898127      
+  time in time step =    1.05890099999999     
+ n =           94  of          415  time steps, t =   0.678391541187355      
+  time in time step =    1.06085400000001     
+ n =           95  of          415  time steps, t =   0.685608472476582      
+  time in time step =    1.07489099999999     
+ n =           96  of          415  time steps, t =   0.692825403765809      
+  time in time step =    1.06875600000001     
+ n =           97  of          415  time steps, t =   0.700042335055036      
+  time in time step =    1.14521800000000     
+ n =           98  of          415  time steps, t =   0.707259266344263      
+  time in time step =    1.05112700000001     
+ n =           99  of          415  time steps, t =   0.714476197633491      
+  time in time step =    1.05516100000000     
+ n =          100  of          415  time steps, t =   0.721693128922718      
+  time in time step =    1.06541900000001     
+ n =          101  of          415  time steps, t =   0.728910060211945      
+  time in time step =    1.07625399999999     
+ n =          102  of          415  time steps, t =   0.736126991501172      
+  time in time step =    1.06364600000001     
+ n =          103  of          415  time steps, t =   0.743343922790399      
+  time in time step =    1.07504600000000     
+ n =          104  of          415  time steps, t =   0.750560854079626      
+  time in time step =    1.06539400000000     
+ n =          105  of          415  time steps, t =   0.757777785368854      
+  time in time step =    1.07648500000001     
+ n =          106  of          415  time steps, t =   0.764994716658081      
+  time in time step =    1.07535600000000     
+ n =          107  of          415  time steps, t =   0.772211647947308      
+  time in time step =    1.08689899999999     
+ n =          108  of          415  time steps, t =   0.779428579236535      
+  time in time step =    1.10804200000000     
+ n =          109  of          415  time steps, t =   0.786645510525762      
+  time in time step =    1.07997700000000     
+ n =          110  of          415  time steps, t =   0.793862441814990      
+  time in time step =    1.08064800000000     
+ n =          111  of          415  time steps, t =   0.801079373104217      
+  time in time step =    1.07421800000000     
+ n =          112  of          415  time steps, t =   0.808296304393444      
+  time in time step =    1.06850500000000     
+ n =          113  of          415  time steps, t =   0.815513235682671      
+  time in time step =    1.07250400000000     
+ n =          114  of          415  time steps, t =   0.822730166971898      
+  time in time step =    1.07611000000000     
+ n =          115  of          415  time steps, t =   0.829947098261125      
+  time in time step =    1.06920500000000     
+ n =          116  of          415  time steps, t =   0.837164029550353      
+  time in time step =    1.06972800000000     
+ n =          117  of          415  time steps, t =   0.844380960839580      
+  time in time step =    1.07071900000000     
+ n =          118  of          415  time steps, t =   0.851597892128807      
+  time in time step =    1.06725900000001     
+ n =          119  of          415  time steps, t =   0.858814823418034      
+  time in time step =    1.07244800000001     
+ n =          120  of          415  time steps, t =   0.866031754707261      
+  time in time step =    1.06933799999999     
+ n =          121  of          415  time steps, t =   0.873248685996489      
+  time in time step =    1.07245399999999     
+ n =          122  of          415  time steps, t =   0.880465617285716      
+  time in time step =    1.09741900000000     
+ n =          123  of          415  time steps, t =   0.887682548574943      
+  time in time step =    1.07289700000001     
+ n =          124  of          415  time steps, t =   0.894899479864170      
+  time in time step =    1.06658299999998     
+ n =          125  of          415  time steps, t =   0.902116411153397      
+  time in time step =    1.10707699999998     
+ n =          126  of          415  time steps, t =   0.909333342442624      
+  time in time step =    1.04082000000000     
+ n =          127  of          415  time steps, t =   0.916550273731852      
+  time in time step =    1.06611799999999     
+ n =          128  of          415  time steps, t =   0.923767205021079      
+  time in time step =    1.07102399999999     
+ n =          129  of          415  time steps, t =   0.930984136310306      
+  time in time step =    1.06878100000000     
+ n =          130  of          415  time steps, t =   0.938201067599533      
+  time in time step =    1.07066800000001     
+ n =          131  of          415  time steps, t =   0.945417998888760      
+  time in time step =    1.07113600000000     
+ n =          132  of          415  time steps, t =   0.952634930177988      
+  time in time step =    1.08885500000000     
+ n =          133  of          415  time steps, t =   0.959851861467215      
+  time in time step =    1.10809799999998     
+ n =          134  of          415  time steps, t =   0.967068792756442      
+  time in time step =    1.07363099999998     
+ n =          135  of          415  time steps, t =   0.974285724045669      
+  time in time step =    1.10686900000002     
+ n =          136  of          415  time steps, t =   0.981502655334896      
+  time in time step =    1.03947400000001     
+ n =          137  of          415  time steps, t =   0.988719586624123      
+  time in time step =    1.06550999999999     
+ n =          138  of          415  time steps, t =   0.995936517913351      
+  time in time step =    1.06840099999999     
+ n =          139  of          415  time steps, t =    1.00315344920258      
+  time in time step =    1.07729200000000     
+ n =          140  of          415  time steps, t =    1.01037038049180      
+  time in time step =    1.07898000000000     
+ n =          141  of          415  time steps, t =    1.01758731178103      
+  time in time step =    1.06687600000001     
+ n =          142  of          415  time steps, t =    1.02480424307026      
+  time in time step =    1.06589800000000     
+ n =          143  of          415  time steps, t =    1.03202117435949      
+  time in time step =    1.07288000000000     
+ n =          144  of          415  time steps, t =    1.03923810564871      
+  time in time step =    1.07230600000000     
+ n =          145  of          415  time steps, t =    1.04645503693794      
+  time in time step =    1.07126599999998     
+ n =          146  of          415  time steps, t =    1.05367196822717      
+  time in time step =    1.08347699999999     
+ n =          147  of          415  time steps, t =    1.06088889951640      
+  time in time step =    1.07496000000000     
+ n =          148  of          415  time steps, t =    1.06810583080562      
+  time in time step =    1.06703200000001     
+ n =          149  of          415  time steps, t =    1.07532276209485      
+  time in time step =    1.07297599999998     
+ n =          150  of          415  time steps, t =    1.08253969338408      
+  time in time step =    1.06624800000000     
+ n =          151  of          415  time steps, t =    1.08975662467330      
+  time in time step =    1.07245399999999     
+ n =          152  of          415  time steps, t =    1.09697355596253      
+  time in time step =    1.06891000000002     
+ n =          153  of          415  time steps, t =    1.10419048725176      
+  time in time step =    1.07390500000000     
+ n =          154  of          415  time steps, t =    1.11140741854099      
+  time in time step =    1.06846099999999     
+ n =          155  of          415  time steps, t =    1.11862434983021      
+  time in time step =    1.09369199999998     
+ n =          156  of          415  time steps, t =    1.12584128111944      
+  time in time step =    1.03361700000002     
+ n =          157  of          415  time steps, t =    1.13305821240867      
+  time in time step =    1.04091800000000     
+ n =          158  of          415  time steps, t =    1.14027514369789      
+  time in time step =    1.06663399999999     
+ n =          159  of          415  time steps, t =    1.14749207498712      
+  time in time step =    1.02968300000001     
+ n =          160  of          415  time steps, t =    1.15470900627635      
+  time in time step =    1.03356599999998     
+ n =          161  of          415  time steps, t =    1.16192593756558      
+  time in time step =    1.03921300000002     
+ n =          162  of          415  time steps, t =    1.16914286885480      
+  time in time step =    1.03120400000000     
+ n =          163  of          415  time steps, t =    1.17635980014403      
+  time in time step =    1.04341700000001     
+ n =          164  of          415  time steps, t =    1.18357673143326      
+  time in time step =    1.03464199999999     
+ n =          165  of          415  time steps, t =    1.19079366272248      
+  time in time step =    1.04247200000000     
+ n =          166  of          415  time steps, t =    1.19801059401171      
+  time in time step =    1.03289799999999     
+ n =          167  of          415  time steps, t =    1.20522752530094      
+  time in time step =    1.05935200000002     

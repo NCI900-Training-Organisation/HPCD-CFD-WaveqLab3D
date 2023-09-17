@@ -1,0 +1,6 @@
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/edit_cache.dir
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/test.dir
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/docs.dir
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/rebuild_cache.dir
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/waveqlab3d.dir
+/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_CascadeLake/CMakeFiles/pre_wql3d.dir

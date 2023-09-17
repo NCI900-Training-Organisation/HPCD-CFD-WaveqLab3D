@@ -229,9 +229,7 @@ contains
 
 
     if (S%output_seismograms .and. S%nstations > 0) then
-       print *, "nstations", S%nstations
 
-       print *, "MPI Rank", rank
        do n = 1,S%nstations
           if (S%i(n) > 0 .and. S%j(n) > 0 .and. S%k(n) > 0) then
             write(S%file_unit(n),'(10f15.10, f16.5, i5)') t, F(S%i(n),S%j(n),S%k(n),1:9), energy_total, rank
