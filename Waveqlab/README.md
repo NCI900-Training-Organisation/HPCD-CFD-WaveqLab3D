@@ -15,9 +15,9 @@ Make sure you can ssh to Gadi shell.
   ```bash
   ssh username@gadi.nci.org.au
   ```
-- **Windows Users**, You can use SSH clients like PuTTY or MobaXterm, or access the Gadi Terminal from NCI Web-based platform [ARE](are.nci.org.au.).
+- **Windows Users**, You can use SSH clients like PuTTY or MobaXterm, or access the Gadi Terminal from NCI Web-based platform [ARE](https://are.nci.org.au).
 
-
+***
 ## System Specifications
 
 Confirm the specifications of the systems you log into and answer the questions below for each of the systems (_Hint: the commands `lscpu` and `uname -a` and the contents of `/proc/cpuinfo` and `/proc/meminfo` might be helpful_)
@@ -116,7 +116,7 @@ $qstat -snw
 ## Task 2 Plot the data output
 Upon job completion, the seismic wave simulation data will be stored in `build_CascadeLake/data` and `build_SapphireRapids/data`, respetively.
 
-Using NCI's web-based graphical interface ARE (short for Australian Research Environment), you can visualize the data in-situ. Head to [ARE](are.nci.org.au) and select JupyterLab, the you will the panel as showing below
+Using NCI's web-based graphical interface ARE (short for Australian Research Environment), you can visualize the data in-situ. Head to [ARE](https://are.nci.org.au) and select JupyterLab, the you will the panel as showing below
  ![ARE JupyterLab](./JupyterLab.png)
 
 The Jupyterlab is scripted to run on Gadi at backend, and automatically port forwarding through ARE. Specify the session characteristics as follows:
