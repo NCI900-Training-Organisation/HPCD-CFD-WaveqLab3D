@@ -1,6 +1,0 @@
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/edit_cache.dir
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/test.dir
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/docs.dir
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/rebuild_cache.dir
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/waveqlab3d.dir
-/g/data/nf47/HPCD-CFD-WaveqLab3D/Waveqlab/build_SapphireRapids/CMakeFiles/pre_wql3d.dir
